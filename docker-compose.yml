@@ -1,10 +1,10 @@
 services:
   postgres:
-    image: postgres:alpine
+    image: postgres:17-alpine
     environment:
-      POSTGRES_DB: httpsms
-      POSTGRES_PASSWORD: dbpassword
-      POSTGRES_USER: dbusername
+      POSTGRES_DB: smsfoorcall
+      POSTGRES_PASSWORD: e8438acb77bfdfba5d5a27a85a39b18c155b38dc
+      POSTGRES_USER: system-smsfoorcall
     volumes:
       - postgres:/var/lib/postgresql/data
     ports:

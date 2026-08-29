@@ -10,12 +10,12 @@ val gitHash = providers.exec {
 }.standardOutput.asText.map { it.trim() }
 
 android {
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.httpsms"
         minSdk = 28
-        targetSdk = 37
+        targetSdk = 36
         versionCode = 1
         versionName = gitHash.getOrElse("unknown")
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
