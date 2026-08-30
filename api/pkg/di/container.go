@@ -50,6 +50,7 @@ import (
 	"go.opentelemetry.io/otel/sdk/resource"
 	semconv "go.opentelemetry.io/otel/semconv/v1.10.0"
 
+	axiomzerolog "github.com/axiomhq/axiom-go/adapters/zerolog"
 	"github.com/hirosassa/zerodriver"
 	"github.com/rs/zerolog"
 	"go.opentelemetry.io/otel/sdk/trace"
@@ -2026,7 +2027,10 @@ func logger(skipFrameCount int) telemetry.Logger {
 }
 
 func logDriver(skipFrameCount int) *zerodriver.Logger {
-    return consoleLogger(skipFrameCount)
+	if isLocal() {
+		return consoleLogger(skipFrameCount)
+	}
+	return axiomLogger(skipFrameCount)
 }
 
 func axiomLogger(skipFrameCount int) *zerodriver.Logger {
