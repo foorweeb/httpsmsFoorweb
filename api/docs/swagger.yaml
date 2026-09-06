@@ -1747,13 +1747,13 @@ definitions:
 host: api.httpsms.com
 info:
   contact:
-    email: support@httpsms.com
-    name: support@httpsms.com
+    email: support@foorwebhttpsms.com
+    name: support@foorwebhttpsms.com
   description: Use your Android phone to send and receive SMS messages via a simple
     programmable API with end-to-end encryption.
   license:
     name: AGPL-3.0
-    url: https://raw.githubusercontent.com/NdoleStudio/http-sms-manager/main/LICENSE
+    url: 
   title: httpSMS API Reference
   version: "1.0"
 paths:

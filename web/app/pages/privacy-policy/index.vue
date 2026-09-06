@@ -176,8 +176,8 @@ useSeoMeta({
           not hesitate to contact us at
           <a
             class="text-decoration-none font-weight-bold"
-            href="mailto:support@httpsms.com"
-            >support@httpsms.com</a
+            href="mailto:support@foorwebhttpsms.com"
+            >support@foorwebhttpsms.com</a
           >.
         </p>
         <VDivider class="mx-16" />

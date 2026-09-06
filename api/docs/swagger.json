@@ -7,12 +7,12 @@
         "description": "Use your Android phone to send and receive SMS messages via a simple programmable API with end-to-end encryption.",
         "title": "httpSMS API Reference",
         "contact": {
-            "name": "support@httpsms.com",
-            "email": "support@httpsms.com"
+            "name": "support@foorwebhttpsms.com",
+            "email": "support@foorwebhttpsms.com"
         },
         "license": {
             "name": "AGPL-3.0",
-            "url": "https://raw.githubusercontent.com/NdoleStudio/http-sms-manager/main/LICENSE"
+            "url": ""
         },
         "version": "1.0"
     },

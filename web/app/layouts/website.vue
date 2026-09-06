@@ -298,7 +298,7 @@ function goToPricing() {
               <li class="mt-2">
                 <a
                   class="text-white text-decoration-none footer-link"
-                  href="mailto:support@httpsms.com"
+                  href="mailto:support@foorwebhttpsms.com"
                 >
                   Contact Support
                   <v-icon size="small" :icon="mdiEmailOutline" />

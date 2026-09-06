@@ -1966,7 +1966,7 @@ function goToPricing() {
                 </NuxtLink>
               </li>
               <li class="mt-2">
-                <a class="text-on-surface text-decoration-none" href="mailto:support@httpsms.com">
+                <a class="text-on-surface text-decoration-none" href="mailto:support@foorwebhttpsms.com">
                   Contact Support <v-icon size="small" :icon="mdiEmailOutline" />
                 </a>
               </li>

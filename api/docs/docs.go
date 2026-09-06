@@ -10,12 +10,12 @@ const docTemplate = `{
         "description": "{{escape .Description}}",
         "title": "{{.Title}}",
         "contact": {
-            "name": "support@httpsms.com",
-            "email": "support@httpsms.com"
+            "name": "support@foorwebhttpsms.com",
+            "email": "support@foorwebhttpsms.com"
         },
         "license": {
             "name": "AGPL-3.0",
-            "url": "https://raw.githubusercontent.com/NdoleStudio/http-sms-manager/main/LICENSE"
+            "url": ""
         },
         "version": "{{.Version}}"
     },

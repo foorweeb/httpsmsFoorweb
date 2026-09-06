@@ -16,11 +16,11 @@ var Version string
 // @version     1.0
 // @description Use your Android phone to send and receive SMS messages via a simple programmable API with end-to-end encryption.
 //
-// @contact.name  support@httpsms.com
-// @contact.email support@httpsms.com
+// @contact.name  support@foorwebhttpsms.com
+// @contact.email support@foorwebhttpsms.com
 //
 // @license.name AGPL-3.0
-// @license.url  https://raw.githubusercontent.com/NdoleStudio/http-sms-manager/main/LICENSE
+// @license.url  
 //
 // @host     api.httpsms.com
 // @schemes  https
